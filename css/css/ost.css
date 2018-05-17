@@ -1,0 +1,147 @@
+
+* {
+    box-sizing: border-box;
+}
+#header
+{
+  color:#8EB9CE;
+}
+.navbarme{
+  color: white;
+  background-color: #fffff;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.colorbox
+{
+  background-color: #F6F9FA;
+  padding: 10px;
+  font-size: 14px
+}
+label
+{
+  font-size: 13px;
+  letter-spacing: 1.75;
+  color: #8EB9CE;
+}
+.max {
+  text-align: center;
+
+}
+.labelcolor{
+  color: #8EB9CE;
+}
+.tooltip .tooltip-inner {
+  background-color: white;
+  color: #597A84;
+  padding: 20px;
+  border: solid 1px #ccc;
+  color: #597A84;
+  font-size: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=right] .arrow::before, .tooltip.bs-tooltip-right .arrow::before {
+    margin-top: -3px;
+    content: "";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-width: 5px 5px 5px 0;
+    border-right-color: #ffffff;
+
+}
+.dateclass{
+  max-width: 280px;
+}
+.imagesize{
+  max-width: 25px;
+}
+input[type="text"]
+{
+  color: #597A84;
+  font-size: 16px;
+
+  border-width: 2px;
+  border-color: #D2E3E5;
+
+}
+textarea[type="text"]
+{
+  border-width: 2px;
+  border-color: #D2E3E5;
+  font-size: 16px;
+
+}
+.diff_border
+{
+  border: 2px;
+
+border-color: #6C9BA9;
+}
+.country_border{
+  border: 2px;
+
+border-color: #6C9BA9;
+}
+
+#btnsave
+{
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2;
+  background-color: #E4B030;
+  height: auto;
+  width : 100px;
+  border-radius: 0px;
+}
+.bootstrap-select.btn-group.dropdown-toggle{
+  background-color: white;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+  color: #597A84;
+  font-size: 16px;
+
+}
+#btncancel
+{
+  border-radius: 0px;
+
+  color: #438BAD;
+  font-size: 14px;
+  height: auto;
+  width : 100px;
+  letter-spacing: 2;
+  border-width: 2px;
+background-color: white;
+  border-color: #B4D1DE;
+
+}
+
+
+@media only screen and (max-width:576px)
+{
+.infotxt
+  {
+    visibility: visible;
+    color: #597A84;
+    font-size: 14px;
+  }
+
+}
+@media only screen and (min-width:576px) and (max-width:1200px)
+{
+  .infotxt{
+    visibility: hidden;
+  }
+
+
+
+}
+@media only screen and (min-width:1200px)
+
+{
+  .infotxt{
+    visibility: hidden;
+  }
+
+}
